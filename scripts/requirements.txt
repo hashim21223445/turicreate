@@ -29,3 +29,4 @@ llvmlite==0.36.0; python_version == '3.9'
 ########## >=  #########
 
 pre-commit>=1.21.0
+protobuf>=6.33.5 # not directly required, pinned by Snyk to avoid a vulnerability
